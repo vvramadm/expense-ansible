@@ -9,7 +9,7 @@
     ansible.builtin.pip:
       name:
       - PyMySQL
-      executable: pip3.9
+      executable: pip21.3
   - name: install MySQL Server
     ansible.builtin.package:
       name: mysql-server
